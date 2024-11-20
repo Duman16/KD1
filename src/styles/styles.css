@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.navbar {
+    background-color: #4caf50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+}
+
+.main-content > div {
+    padding: 1rem;
+    flex: 1;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+}
+
+.crm-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.crm-table th, .crm-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.crm-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
