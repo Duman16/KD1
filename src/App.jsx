@@ -2,7 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Dashboard from './pages/Dashboard';
-import NotFoundPage from './pages/NotFoundPage';
+import Users from './pages/Users';
+import AttendanceLog from './pages/AttendanceLog';  // Импортируем компонент журнал посещаемости
 import './styles/styles.css';
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
                     <Sidebar />
                     <Routes>
                         <Route path="/" element={<Dashboard />} />
-                        <Route path="*" element={<NotFoundPage />} />
+                        <Route path="/users" element={<Users />} />
+                        <Route path="/attendance-log" element={<AttendanceLog />} /> {/* Добавляем маршрут для журнала посещаемости */}
                     </Routes>
                 </div>
             </div>

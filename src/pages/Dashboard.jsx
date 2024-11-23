@@ -5,7 +5,6 @@ const Dashboard = () => {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        // Загрузка данных из API
         axios.get('http://localhost:8000/api/users/')
             .then((response) => {
                 setUsers(response.data);

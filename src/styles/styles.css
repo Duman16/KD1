@@ -61,4 +61,25 @@ body {
     background-color: #f4f4f4;
     font-weight: bold;
 }
+.attendance-log {
+    padding: 20px;
+}
 
+.attendance-log h2 {
+    margin-bottom: 20px;
+}
+
+.attendance-log table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.attendance-log th, .attendance-log td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.attendance-log th {
+    background-color: #f4f4f4;
+}
